@@ -40,33 +40,7 @@ MySQL
 Maven
 
 Hibernate
-
-📁 Project Structure
-spring-boot-rest-api-crud-with-mysql
-│
-├── controller
-│   ├── EmployeeController.java
-│   └── UserController.java
-│
-├── Dao
-│   └── EmployeeDao.java
-│
-├── Dto
-│   └── EmployeeRequest.java
-│
-├── entity
-│   └── Employee.java
-│
-├── Repository
-│   └── EmployeeRepository.java
-│
-├── security
-│   └── SpringWebSecurity.java
-│
-├── SpringBootRestApiCrudWithMysqlApplication.java
-│
-├── application.properties
-└── pom.xml
+================================================================================================================
 
 🧩 API Functionality
 Employee APIs
@@ -82,7 +56,7 @@ Update Employee
 Delete Employee
 
 All request bodies are validated using Bean Validation annotations.
-
+================================================================================================================
 ✅ Validation
 
 Validation is implemented using:
@@ -98,7 +72,7 @@ Validation is implemented using:
 @Valid
 
 Validation logic is handled via a DTO (EmployeeRequest) to keep entity clean.
-
+==================================================================================================================
 🔐 Security
 
 Spring Security is configured using SpringWebSecurity
